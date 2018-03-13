@@ -1,0 +1,26 @@
+
+5/20/2016 11:35:45 PMEmployee With ID1003 has logged in
+5/20/2016 11:35:58 PMClient With Account Number20003 has logged in
+5/20/2016 11:36:05 PMClient With Account Number20003 withdraw100L.E
+5/20/2016 11:36:12 PMClient With Account Number20003 deposite100L.E
+5/20/2016 11:36:26 PMClient With Account Number20003 transfer 100L.E To Client With Account Number20001
+5/20/2016 11:36:44 PM Client With Account Number 20003 has been Updated 
+5/20/2016 11:37:01 PM Client  Of Account Number 20003 has logged out
+5/20/2016 11:37:32 PM Employee Of ID1003 has logged out
+5/21/2016 12:26:23 AM Manager Of Bank has logged in
+5/21/2016 12:27:20 AM Employee With ID 1004 has been Added 
+5/21/2016 12:28:55 AM Employee With ID 1005 has been Added 
+5/21/2016 12:29:53 AM Employee With ID 1006 has been Added 
+5/21/2016 12:31:03 AMEmployee With ID1003 has logged in
+5/21/2016 12:31:44 AM Client With AccountNumber  20005 has been Added 
+5/21/2016 12:32:28 AM Client With AccountNumber  20006 has been Added 
+5/21/2016 12:37:09 AM Manager Of Bank has logged in
+5/21/2016 12:37:42 AM Employee With ID 1004 has been Removed 
+5/21/2016 12:39:10 AMEmployee With ID1003 has logged in
+5/21/2016 12:40:31 AM Client With Account Number 20000 has been Removed 
+5/21/2016 1:18:28 AMEmployee With ID1003 has logged in
+5/21/2016 1:19:13 AMClient With Account Number20003 has logged in
+5/21/2016 1:19:29 AM Client  Of Account Number 20003 has logged out
+5/21/2016 1:19:32 AM Employee Of ID1003 has logged out
+5/21/2016 1:21:23 AMEmployee With ID1003 has logged in
+5/21/2016 1:21:35 AMClient With Account Number20003 has logged in

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LastUpdateOOp.AcceptLoanForm" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAASEQCCAAhKIAAGAAJCDACwAAAABAAAAIAAAQAA=</HashCode>
+      <FileName>AcceptLoanForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Account" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAgAAAAAAgAAAAAAAAAAAACAAACAAAAEAA=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Accountant">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Accountant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.AccountLoginForm" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQBICAABAAAAADQAAACEAAAgAAAAAAgAAACAAE=</HashCode>
+      <FileName>AccountLoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.AccountOperationsForm" Collapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAABAgCkAAAAQAACAAQACAAACAjAQQAAAIABAAAA=</HashCode>
+      <FileName>AccountOperationsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.AddClientForm" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEgAAQoACGSBBAIEUDQAAACEAAAAAAAAgAABAEwAAA=</HashCode>
+      <FileName>AddClientForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.AddEmployeeForm" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FEDABEQIAiMoEBYYCACIAAoCYAAAAAAgoAABAAACAUQ=</HashCode>
+      <FileName>AddEmployeeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Balance" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAIACAgAQAAAAAAAAAAAAQBAAAAAAAAAA=</HashCode>
+      <FileName>Balance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.BankSystem" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAIAAAAAAAAAAABAAAIAAAAAAoAAgIAAAAEAAA=</HashCode>
+      <FileName>BankSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Client">
+    <Position X="1.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAACgAACACAAAAAAAAAgAAAAAAAQQAQAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Deposite">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Deposite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.DepositeForm" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAgAgAQAAAIAAAgAAA=</HashCode>
+      <FileName>DepositeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Employee" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAgAAgAAAAAAAAAAAAgAACAAAAEQEAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.EmployeeLoginForm" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAkAAEAACAEAACQAAAAIAAAIAAgAgAAAA=</HashCode>
+      <FileName>EmployeeLoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.EmployeeOperationsForm" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACABQAAIAATAAAACEAAAAAAAAAACABAAAAA=</HashCode>
+      <FileName>EmployeeOperationsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.FileOperationOfClient" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgAAAAAAACBAAAAAAAAAAAAkAAAAAAjASACAAAAA=</HashCode>
+      <FileName>FileOperationOfClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.FileOperationOfEmployee" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQgEAIAAAAgBAAAAAAgAAAAAEAQAAAAAAQAAAAAAA=</HashCode>
+      <FileName>FileOperationOfEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.StartForm" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABACAACAAAAAiAAAACEQAAAAAABAAAAABACAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.IDloginEmployee" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAABAAAACIEAACCBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDloginEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Loan" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAQQIAgACBAEAAAAAAQAAAAAAAEAoAAAAQAAEQAEA=</HashCode>
+      <FileName>Loan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.LoanFileOperation" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAQIAAAABgAAAAAAAAAAAgAAJAAAAAEACAAAAA=</HashCode>
+      <FileName>LoanFileOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Manager_LoginForm" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIgAAAEACAAAAAAAACAAAACAAAAAAABAAAgAAABAAA=</HashCode>
+      <FileName>Manager Login .cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Manager">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAIAAIAAAAAAAABAAAAAAAAAAAAAAAQABAAAgA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.ManagerOperationsForm" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAEAAAAAACAAQACAAAACAAAAABAAIBAIAg=</HashCode>
+      <FileName>ManagerOperationsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Operation" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Operation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.PayForLoanForm" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACIAAAAAAACAAAACAAAAAIAAAAAIAAAgAAA=</HashCode>
+      <FileName>PayForLoanForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Person" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAACAAAAAQAQAAAAAgAACAAAAAQAAAAg=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Program" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.RemoveClientForm" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAARAAAAACEAAASAAAAAAAAAAAAABAAAIE=</HashCode>
+      <FileName>RemoveClientForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.RemoveEmployeeForm" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAEAACAEAACAAAAAAAAAABAAAAAAAg=</HashCode>
+      <FileName>RemoveEmployeeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Request" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAACAAAAQAAABAABAAAAAAAA=</HashCode>
+      <FileName>Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.RequestLoanForm" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIAABACAICAAAEYAAACAAAAHAAAAAQAAAQAAAgAAgAA=</HashCode>
+      <FileName>RequestLoanForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Transfere">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAABAAEAAAAAAAA=</HashCode>
+      <FileName>Transfere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.TransfereForm" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAAAAUAACAACACAAAAAAAAAAAIAAAgAQA=</HashCode>
+      <FileName>TransfereForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.UpdateEmployeeForm" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OIAAgAQAAiQAABAAAAKAIwQCAAAAAQAAAAAAAABQAAA=</HashCode>
+      <FileName>UpdateEmployeeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.UpdateForm" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEgCAQoICGABAAIAADAAQACEAAAEAAAAgAABAFgAAE=</HashCode>
+      <FileName>UpdateForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Withdraw">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Withdraw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.WithdrawForm" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIAAAAAAAGAAAACAAAAACAAQAAIAAAgAAA=</HashCode>
+      <FileName>WithdrawForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Properties.Resources" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastUpdateOOp.Properties.Settings" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

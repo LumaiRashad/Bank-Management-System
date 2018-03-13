@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB35E142-BB84-41F7-9832-646DA4EC490B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LastUpdateOOp</RootNamespace>
+    <AssemblyName>LastUpdateOOp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcceptLoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcceptLoanForm.Designer.cs">
+      <DependentUpon>AcceptLoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account.cs" />
+    <Compile Include="Accountant.cs" />
+    <Compile Include="AccountLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountLoginForm.Designer.cs">
+      <DependentUpon>AccountLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountOperationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountOperationsForm.Designer.cs">
+      <DependentUpon>AccountOperationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClientForm.Designer.cs">
+      <DependentUpon>AddClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployeeForm.Designer.cs">
+      <DependentUpon>AddEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Balance.cs" />
+    <Compile Include="BankSystem.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Deposite.cs" />
+    <Compile Include="DepositeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepositeForm.Designer.cs">
+      <DependentUpon>DepositeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeLoginForm.Designer.cs">
+      <DependentUpon>EmployeeLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeOperationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeOperationsForm.Designer.cs">
+      <DependentUpon>EmployeeOperationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileOperationOfClient.cs" />
+    <Compile Include="FileOperationOfEmployee.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDloginEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDloginEmployee.Designer.cs">
+      <DependentUpon>IDloginEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loan.cs" />
+    <Compile Include="LoanFileOperation.cs" />
+    <Compile Include="Manager Login .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Login .Designer.cs">
+      <DependentUpon>Manager Login .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="ManagerOperationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerOperationsForm.Designer.cs">
+      <DependentUpon>ManagerOperationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Operation.cs" />
+    <Compile Include="PayForLoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayForLoanForm.Designer.cs">
+      <DependentUpon>PayForLoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveClientForm.Designer.cs">
+      <DependentUpon>RemoveClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveEmployeeForm.Designer.cs">
+      <DependentUpon>RemoveEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Request.cs" />
+    <Compile Include="RequestLoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestLoanForm.Designer.cs">
+      <DependentUpon>RequestLoanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transfere.cs" />
+    <Compile Include="TransfereForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransfereForm.Designer.cs">
+      <DependentUpon>TransfereForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateEmployeeForm.Designer.cs">
+      <DependentUpon>UpdateEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateForm.Designer.cs">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Withdraw.cs" />
+    <Compile Include="WithdrawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WithdrawForm.Designer.cs">
+      <DependentUpon>WithdrawForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AcceptLoanForm.resx">
+      <DependentUpon>AcceptLoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountLoginForm.resx">
+      <DependentUpon>AccountLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountOperationsForm.resx">
+      <DependentUpon>AccountOperationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddClientForm.resx">
+      <DependentUpon>AddClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEmployeeForm.resx">
+      <DependentUpon>AddEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepositeForm.resx">
+      <DependentUpon>DepositeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeLoginForm.resx">
+      <DependentUpon>EmployeeLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeOperationsForm.resx">
+      <DependentUpon>EmployeeOperationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDloginEmployee.resx">
+      <DependentUpon>IDloginEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Login .resx">
+      <DependentUpon>Manager Login .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerOperationsForm.resx">
+      <DependentUpon>ManagerOperationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayForLoanForm.resx">
+      <DependentUpon>PayForLoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RemoveClientForm.resx">
+      <DependentUpon>RemoveClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoveEmployeeForm.resx">
+      <DependentUpon>RemoveEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestLoanForm.resx">
+      <DependentUpon>RequestLoanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SequenceDiagram1.sequencediagram.layout">
+      <DependentUpon>SequenceDiagram1.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransfereForm.resx">
+      <DependentUpon>TransfereForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateEmployeeForm.resx">
+      <DependentUpon>UpdateEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateForm.resx">
+      <DependentUpon>UpdateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WithdrawForm.resx">
+      <DependentUpon>WithdrawForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SequenceDiagram1.sequencediagram" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
